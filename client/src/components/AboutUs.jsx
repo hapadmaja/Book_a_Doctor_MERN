@@ -15,13 +15,11 @@ const AboutUs = () => {
           </div>
           <div className="hero-content">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Quibusdam tenetur doloremque molestias repellat minus asperiores
-              in aperiam dolor, quaerat praesentium. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Voluptatibus, repudiandae! Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Provident
-              quibusdam doloremque ex? Officia atque ab dolore? Tempore totam
-              non ea!
+             We prioritize your comfort and well-being. Our friendly staff
+             and state-of-the-art facilities ensure a positive healthcare experience.
+             Experience exceptional healthcare tailored to your needs.
+             This portal range of medical services,backed by years of
+             experience and advanced expertise.
             </p>
           </div>
         </div>
