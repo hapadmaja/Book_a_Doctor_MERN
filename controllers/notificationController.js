@@ -1,5 +1,4 @@
 const Notification = require("../models/notificationModel");
-
 const getallnotifs = async (req, res) => {
   try {
     const notifs = await Notification.find({ userId: req.locals });
