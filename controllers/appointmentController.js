@@ -34,9 +34,7 @@ const bookappointment = async (req, res) => {
     });
 
     await usernotification.save();
-
     const user = await User.findById(req.locals);
-
     const doctornotification = Notification({
       userId: req.body.doctorId,
       content: `You have an appointment with ${user.firstname} ${user.lastname} on ${req.body.date} at ${req.body.time}`,
