@@ -91,7 +91,6 @@ const rejectdoctor = async (req, res) => {
     });
 
     await notification.save();
-
     return res.status(201).send("Application rejection notification sent");
   } catch (error) {
     res.status(500).send("Error while rejecting application");
